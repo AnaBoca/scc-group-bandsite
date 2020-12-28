@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Contact | Cadillac Assembly Line</title>
+	
+	<link rel="icon" href="black_guitar.ico" />
+  
+	<meta charset="utf-8">
+  
+	<!-- Required meta tag for resposive pages -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Latest compiled and minified bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+		<!-- LINK TO LOCAL STYLESHEET -->
+		<link href="band.css" rel="stylesheet">
+		<!-- LINK TO GOOGLE FONTS - CINZEL -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel"/>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+	
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+
+	<header class="banner w-100 pt-md-3">
+	
+		<div id="overlay" onclick="off()"> 
+			<div class="d-flex flex-column justify-content-around align-items-center py-5 px-4" id="overlayNav">
+				<a href="index.html">HOME</a>
+				<a href="videos.html">VIDEOS</a>
+				<a href="index.html">
+					<img class="img-fluid logo-silver" src="images/logo_silver.png" alt="Cadillac Assembly Line Band">
+				</a>
+				<a href="albums.html">ALBUMS</a>
+				<a href="contact.html">CONTACT</a>
+			</div>
+		</div><!-- End overlay nav -->
+
+		<div class="container-fluid">
+		
+		<button onclick="on()" id ="overlay_btn" class="btn float-right my-4" type="button" data-target="#overlayNav">
+			<span>
+			 <i class="fas fa-bars"></i>
+			</span>
+		</button>	
+		
+			<div class="row">
+				<div class="col-12 text-center">
+				
+					<h1 class="text-center">Cadillac Assembly Line</h1>
+					
+					<nav id="second-nav" class="navbar navbar-expand-md m-3">
+					 <div class="container-fluid pt-3 mt-5">
+						<div class="collapse navbar-collapse justify-content-center p-0 m-0" id="MainNav">
+
+								<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link" href="index.html">HOME</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="videos.html">VIDEOS</a>
+									</li>
+									<li class="nav-item img-item">
+										<a class="nav-link" href="index.html">
+											<img class="img-fluid logo-white mx-4" src="images/logo_white.png" alt="Cadillac Assembly Line Band">
+										</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="albums.html">ALBUMS</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="contact.html">CONTACT</a>
+									</li>
+								</ul>
+
+						</div>
+					 </div>
+					</nav>
+					
+				</div>
+			</div>
+		</div><!-- End main nav -->
+	</header>
+	
+	<main>
+		
+	<div class="container container-fluid py-5">
+		<h2 class="text-center">CONTACT</h2>
+		
+		<div class="row test py-4">
+			
+			<div class="col-md-4 text-center contact">
+				<p>Fan? Drop a note.</p>
+				<p><i class="fas fa-map-marker-alt"></i> Phoenix, US</p>
+				<p><i class="fas fa-phone"></i> Phone: 480-734-7063</p>
+				<p><i class="fas fa-envelope-square"></i> Email: mail@mail.com</p> 
+			</div>
+			
+				<div class="col-md-8">
+			
+					<form>
+							<div class="row">
+								<div class="col-sm-6 form-group">
+									<input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+								</div>
+								<div class="col-sm-6 form-group">
+									<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+								</div>
+							</div>
+							
+							<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+							
+							<div class="row mt-3">
+								<div class="col-md-12 form-group">
+									<button class="btn pull-right font-weight-bold" type="submit">Send</button>
+								</div>
+							</div> 
+					</form>
+					
+				</div>
+			
+		</div>
+	</div><!-- End form -->
+	
+	<nav class="navbar navbar-expand p-0 m-0" id="SocialNav">
+		<div class="container-fluid justify-content-center p-0 m-0">
+			
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class ="nav-link" href="https://www.facebook.com/cadillacassemblylinebandaz/" target="_blank">
+						<i class="fab fa-facebook-square"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class ="nav-link" href="#">
+						<i class="fab fa-twitter-square"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class ="nav-link" href="#">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class ="nav-link" href="#">
+						<i class="fab fa-youtube"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class ="nav-link" href="#">
+						<i class="fab fa-spotify"></i>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class ="nav-link" href="#">
+						<i class="fab fa-itunes"></i>
+					</a>
+				</li>
+			</ul>
+				
+		</div>
+	</nav><!-- End social nav -->
+		
+	</main>
+	
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-lg-12 py-4">
+				<footer class="text-center">
+					<i class="far fa-copyright"></i> 2019 Group Five: Ana Boca, MaiLe Keller, Byron Monterroso, Madison Mosbaugh
+				</footer>
+			</div>
+		</div>
+	</div><!-- End responsive footer -->
+	
+<script src="scripts/overlay.js"></script>
+
+</body>
+</html>
